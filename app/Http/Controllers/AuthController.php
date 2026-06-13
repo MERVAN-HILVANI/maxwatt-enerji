@@ -17,23 +17,25 @@ class AuthController extends Controller
         $request->validate([
             'email' => 'required|email',
             'password' => 'required|string',
+        ], [
+            'email.required' => 'E-posta adresi zorunludur.',
+            'email.email' => 'Geçerli bir e-posta adresi giriniz.',
+            'password.required' => 'Şifre zorunludur.',
         ]);
 
         $credentials = $request->only('email', 'password');
 
-        if (Auth::attempt($credentials, $request->filled('remember'))) {
+        if (Auth::guard('admin')->attempt($credentials, $request->filled('remember'))) {
             $request->session()->regenerate();
-            return redirect()->intended(route('admin.index'));
+            return redirect()->route('admin.index');
         }
 
-        return back()->withErrors([
-            'email' => 'Geçersiz email veya şifre.',
-        ])->onlyInput('email');
+        return back()->with('error', 'Geçersiz e-posta veya şifre.')->onlyInput('email');
     }
 
     public function logout(Request $request)
     {
-        Auth::logout();
+        Auth::guard('admin')->logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect()->route('login');

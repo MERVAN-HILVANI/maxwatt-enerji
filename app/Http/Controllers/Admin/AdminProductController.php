@@ -28,7 +28,7 @@ class AdminProductController extends Controller
     {
         $product = new Product();
         $product->category_id = $request->category_id;
-        $product->user_id = Auth::id();
+        $product->user_id = Auth::guard('admin')->id();
         $product->title = $request->title;
         $product->keywords = $request->keywords;
         $product->description = $request->description;
@@ -78,7 +78,7 @@ class AdminProductController extends Controller
     public function update(Request $request, Product $product)
     {
         $product->category_id = $request->category_id;
-        $product->user_id = Auth::id();
+        $product->user_id = Auth::guard('admin')->id();
         $product->title = $request->title;
         $product->keywords = $request->keywords;
         $product->description = $request->description;
