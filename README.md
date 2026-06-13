@@ -9,6 +9,28 @@
 
 Maxwatt Enerji is a full-featured e-commerce system for solar system products. It includes a complete admin panel, customer-facing store, order management, payment processing, refund system, and much more.
 
+## 📸 Screenshots
+
+### Admin Panel
+![Screenshot 1](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/1.png)
+![Screenshot 2](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/2.png)
+![Screenshot 3](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/3.png)
+![Screenshot 4](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/4.png)
+![Screenshot 5](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/5.png)
+![Screenshot 6](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/6.png)
+![Screenshot 7](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/7.png)
+![Screenshot 8](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/8.png)
+
+### Customer Site
+![Screenshot 9](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/9.png)
+![Screenshot 10](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/10.png)
+![Screenshot 11](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/11.png)
+![Screenshot 12](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/12.png)
+![Screenshot 13](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/13.png)
+![Screenshot 14](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/14.png)
+![Screenshot 15](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/15.png)
+![Screenshot 16](https://raw.githubusercontent.com/MERVAN-HILVANI/maxwatt-enerji/main/16.png)
+
 ## 🚀 Features
 
 ### 🛒 Customer Side
